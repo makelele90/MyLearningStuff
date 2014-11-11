@@ -1,0 +1,9 @@
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\DataAccess\bin\Debug\DataAccess.dll
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\DataAccess\bin\Debug\DataAccess.pdb
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\DataAccess\bin\Debug\EntityFramework.dll
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\DataAccess\bin\Debug\EntityFramework.xml
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\DataAccess\obj\Debug\DataAccess.dll
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\DataAccess\obj\Debug\DataAccess.pdb

@@ -1,0 +1,28 @@
+﻿@model ValidationDemo.Models.RegistrationModel
+@{
+  ViewBag.Title = "Register";
+}
+<h2>Register</h2>
+
+@using (Html.BeginForm("Register", "Authentication", FormMethod.Post,new { id="myform"}))
+{
+<p>
+  @Html.LabelFor(m => m.FirstName) @Html.TextBoxFor(m => m.FirstName)
+</p>
+<p>
+  @Html.LabelFor(m => m.LastName) @Html.TextBoxFor(m => m.LastName)
+</p>
+<p>
+  @Html.LabelFor(m => m.Username) @Html.TextBoxFor(m => m.Username)
+</p>
+<p>
+  @Html.LabelFor(m => m.Password) @Html.TextBoxFor(m => m.Password)
+</p>
+<p>
+  @Html.LabelFor(m => m.ConfirmPassword) @Html.TextBoxFor(m => m.ConfirmPassword)
+</p>
+
+  <input type="submit" value="Register" id="mybutton"/>
+  <div id="errors"></div>
+
+} 

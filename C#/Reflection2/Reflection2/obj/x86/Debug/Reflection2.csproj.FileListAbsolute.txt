@@ -1,0 +1,5 @@
+C:\Francis Projects Demo\C#\Reflection2\Reflection2\bin\Debug\Reflection2.exe
+C:\Francis Projects Demo\C#\Reflection2\Reflection2\bin\Debug\Reflection2.pdb
+C:\Francis Projects Demo\C#\Reflection2\Reflection2\obj\x86\Debug\Reflection2.exe
+C:\Francis Projects Demo\C#\Reflection2\Reflection2\obj\x86\Debug\Reflection2.pdb
+C:\Francis Projects Demo\C#\Reflection2\Reflection2\obj\x86\Debug\Reflection2.csprojResolveAssemblyReference.cache

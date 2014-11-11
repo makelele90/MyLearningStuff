@@ -1,0 +1,4 @@
+C:\Francis Projects Demo\C#\Delegate Lambda Events\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Francis Projects Demo\C#\Delegate Lambda Events\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Francis Projects Demo\C#\Delegate Lambda Events\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Francis Projects Demo\C#\Delegate Lambda Events\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

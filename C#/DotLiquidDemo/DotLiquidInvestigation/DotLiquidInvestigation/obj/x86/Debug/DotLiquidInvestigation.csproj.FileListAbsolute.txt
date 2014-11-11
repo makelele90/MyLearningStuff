@@ -1,0 +1,6 @@
+C:\Francis Projects Demo\C#\DotLiquidDemo\DotLiquidInvestigation\DotLiquidInvestigation\bin\Debug\DotLiquidInvestigation.exe
+C:\Francis Projects Demo\C#\DotLiquidDemo\DotLiquidInvestigation\DotLiquidInvestigation\bin\Debug\DotLiquidInvestigation.pdb
+C:\Francis Projects Demo\C#\DotLiquidDemo\DotLiquidInvestigation\DotLiquidInvestigation\obj\x86\Debug\DotLiquidInvestigation.exe
+C:\Francis Projects Demo\C#\DotLiquidDemo\DotLiquidInvestigation\DotLiquidInvestigation\obj\x86\Debug\DotLiquidInvestigation.pdb
+C:\Francis Projects Demo\C#\DotLiquidDemo\DotLiquidInvestigation\DotLiquidInvestigation\bin\Debug\DotLiquid.dll
+C:\Francis Projects Demo\C#\DotLiquidDemo\DotLiquidInvestigation\DotLiquidInvestigation\obj\x86\Debug\DotLiquidInvestigation.csprojResolveAssemblyReference.cache

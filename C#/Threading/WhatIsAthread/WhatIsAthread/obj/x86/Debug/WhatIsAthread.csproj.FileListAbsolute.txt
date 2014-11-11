@@ -1,0 +1,12 @@
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\WhatIsAthread\obj\x86\Debug\WhatIsAthread.Form1.resources
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\WhatIsAthread\obj\x86\Debug\WhatIsAthread.Properties.Resources.resources
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\WhatIsAthread\obj\x86\Debug\WhatIsAthread.csproj.GenerateResource.Cache
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\WhatIsAthread\bin\Debug\WhatIsAthread.exe
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\WhatIsAthread\bin\Debug\WhatIsAthread.pdb
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\WhatIsAthread\bin\Debug\EntityFramework.dll
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\WhatIsAthread\bin\Debug\EntityFramework.SqlServer.dll
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\WhatIsAthread\bin\Debug\EntityFramework.xml
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\WhatIsAthread\bin\Debug\EntityFramework.SqlServer.xml
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\WhatIsAthread\obj\x86\Debug\WhatIsAthread.csprojResolveAssemblyReference.cache
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\WhatIsAthread\obj\x86\Debug\WhatIsAthread.exe
+C:\Francis Projects Demo\C#\Threading\WhatIsAthread\WhatIsAthread\obj\x86\Debug\WhatIsAthread.pdb

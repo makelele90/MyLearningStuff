@@ -1,0 +1,4 @@
+C:\Francis Projects Demo\C#\ProjectEurlerDemo\ProjectEurlerDemo\bin\Debug\ProjectEurlerDemo.exe
+C:\Francis Projects Demo\C#\ProjectEurlerDemo\ProjectEurlerDemo\bin\Debug\ProjectEurlerDemo.pdb
+C:\Francis Projects Demo\C#\ProjectEurlerDemo\ProjectEurlerDemo\obj\x86\Debug\ProjectEurlerDemo.exe
+C:\Francis Projects Demo\C#\ProjectEurlerDemo\ProjectEurlerDemo\obj\x86\Debug\ProjectEurlerDemo.pdb

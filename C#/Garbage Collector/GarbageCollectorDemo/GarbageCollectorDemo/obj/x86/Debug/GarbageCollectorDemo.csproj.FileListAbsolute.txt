@@ -1,0 +1,4 @@
+C:\Francis Projects Demo\C#\Garbage Collector\GarbageCollectorDemo\GarbageCollectorDemo\bin\Debug\GarbageCollectorDemo.exe
+C:\Francis Projects Demo\C#\Garbage Collector\GarbageCollectorDemo\GarbageCollectorDemo\bin\Debug\GarbageCollectorDemo.pdb
+C:\Francis Projects Demo\C#\Garbage Collector\GarbageCollectorDemo\GarbageCollectorDemo\obj\x86\Debug\GarbageCollectorDemo.exe
+C:\Francis Projects Demo\C#\Garbage Collector\GarbageCollectorDemo\GarbageCollectorDemo\obj\x86\Debug\GarbageCollectorDemo.pdb

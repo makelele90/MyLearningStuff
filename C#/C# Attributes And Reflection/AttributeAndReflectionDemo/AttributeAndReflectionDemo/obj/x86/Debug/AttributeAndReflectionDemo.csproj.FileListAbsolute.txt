@@ -1,0 +1,5 @@
+C:\Francis Projects Demo\C#\C# Attributes And Reflection\AttributeAndReflectionDemo\AttributeAndReflectionDemo\bin\Debug\AttributeAndReflectionDemo.exe
+C:\Francis Projects Demo\C#\C# Attributes And Reflection\AttributeAndReflectionDemo\AttributeAndReflectionDemo\bin\Debug\AttributeAndReflectionDemo.pdb
+C:\Francis Projects Demo\C#\C# Attributes And Reflection\AttributeAndReflectionDemo\AttributeAndReflectionDemo\obj\x86\Debug\AttributeAndReflectionDemo.exe
+C:\Francis Projects Demo\C#\C# Attributes And Reflection\AttributeAndReflectionDemo\AttributeAndReflectionDemo\obj\x86\Debug\AttributeAndReflectionDemo.pdb
+C:\Francis Projects Demo\C#\C# Attributes And Reflection\AttributeAndReflectionDemo\AttributeAndReflectionDemo\obj\x86\Debug\AttributeAndReflectionDemo.csprojResolveAssemblyReference.cache

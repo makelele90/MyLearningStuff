@@ -1,0 +1,5 @@
+C:\Francis Projects Demo\C#\Generic\GenericDemo\GenericDemo\bin\Debug\GenericDemo.pdb
+C:\Francis Projects Demo\C#\Generic\GenericDemo\GenericDemo\obj\x86\Debug\GenericDemo.pdb
+C:\Francis Projects Demo\C#\Generic\GenericDemo\GenericDemo\bin\Debug\GenericDemo.exe
+C:\Francis Projects Demo\C#\Generic\GenericDemo\GenericDemo\obj\x86\Debug\GenericDemo.exe
+C:\Francis Projects Demo\C#\Generic\GenericDemo\GenericDemo\obj\x86\Debug\GenericDemo.csprojResolveAssemblyReference.cache

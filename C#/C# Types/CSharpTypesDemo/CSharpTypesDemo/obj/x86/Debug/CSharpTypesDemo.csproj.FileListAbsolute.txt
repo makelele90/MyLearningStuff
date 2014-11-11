@@ -1,0 +1,6 @@
+C:\Francis Projects Demo\C#\C# Types\CSharpTypesDemo\CSharpTypesDemo\bin\Debug\CSharpTypesDemo.exe
+C:\Francis Projects Demo\C#\C# Types\CSharpTypesDemo\CSharpTypesDemo\bin\Debug\CSharpTypesDemo.pdb
+C:\Francis Projects Demo\C#\C# Types\CSharpTypesDemo\CSharpTypesDemo\obj\x86\Debug\CSharpTypesDemo.exe
+C:\Francis Projects Demo\C#\C# Types\CSharpTypesDemo\CSharpTypesDemo\obj\x86\Debug\CSharpTypesDemo.pdb
+C:\Francis Projects Demo\C#\C# Types\CSharpTypesDemo\CSharpTypesDemo\obj\x86\Debug\CSharpTypesDemo.csprojResolveAssemblyReference.cache
+C:\Francis Projects Demo\C#\C# Types\CSharpTypesDemo\CSharpTypesDemo\bin\Debug\CSharpTypesDemo.exe.config

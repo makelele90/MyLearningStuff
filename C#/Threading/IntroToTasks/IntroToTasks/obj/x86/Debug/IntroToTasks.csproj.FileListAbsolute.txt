@@ -1,0 +1,5 @@
+C:\Francis Projects Demo\C#\Threading\IntroToTasks\IntroToTasks\bin\Debug\IntroToTasks.exe
+C:\Francis Projects Demo\C#\Threading\IntroToTasks\IntroToTasks\bin\Debug\IntroToTasks.pdb
+C:\Francis Projects Demo\C#\Threading\IntroToTasks\IntroToTasks\obj\x86\Debug\IntroToTasks.exe
+C:\Francis Projects Demo\C#\Threading\IntroToTasks\IntroToTasks\obj\x86\Debug\IntroToTasks.pdb
+C:\Francis Projects Demo\C#\Threading\IntroToTasks\IntroToTasks\obj\x86\Debug\IntroToTasks.csprojResolveAssemblyReference.cache

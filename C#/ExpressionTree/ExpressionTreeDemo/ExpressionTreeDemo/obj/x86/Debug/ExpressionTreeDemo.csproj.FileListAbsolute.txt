@@ -1,0 +1,10 @@
+C:\Francis Projects Demo\C#\ExpressionTree\ExpressionTreeDemo\ExpressionTreeDemo\bin\Debug\ExpressionTreeDemo.exe
+C:\Francis Projects Demo\C#\ExpressionTree\ExpressionTreeDemo\ExpressionTreeDemo\bin\Debug\ExpressionTreeDemo.pdb
+C:\Francis Projects Demo\C#\ExpressionTree\ExpressionTreeDemo\ExpressionTreeDemo\obj\x86\Debug\ExpressionTreeDemo.exe
+C:\Francis Projects Demo\C#\ExpressionTree\ExpressionTreeDemo\ExpressionTreeDemo\obj\x86\Debug\ExpressionTreeDemo.pdb
+C:\Francis Projects Demo\C#\ExpressionTree\ExpressionTreeDemo\ExpressionTreeDemo\bin\Debug\ExpressionTreeDemo.exe.config
+C:\Francis Projects Demo\C#\ExpressionTree\ExpressionTreeDemo\ExpressionTreeDemo\bin\Debug\EntityFramework.dll
+C:\Francis Projects Demo\C#\ExpressionTree\ExpressionTreeDemo\ExpressionTreeDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Francis Projects Demo\C#\ExpressionTree\ExpressionTreeDemo\ExpressionTreeDemo\bin\Debug\EntityFramework.xml
+C:\Francis Projects Demo\C#\ExpressionTree\ExpressionTreeDemo\ExpressionTreeDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Francis Projects Demo\C#\ExpressionTree\ExpressionTreeDemo\ExpressionTreeDemo\obj\x86\Debug\ExpressionTreeDemo.csprojResolveAssemblyReference.cache

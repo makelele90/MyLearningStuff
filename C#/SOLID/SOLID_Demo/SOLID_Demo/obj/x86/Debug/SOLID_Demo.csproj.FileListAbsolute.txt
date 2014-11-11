@@ -1,0 +1,4 @@
+C:\Francis Projects Demo\C#\SOLID\SOLID_Demo\SOLID_Demo\bin\Debug\SOLID_Demo.exe
+C:\Francis Projects Demo\C#\SOLID\SOLID_Demo\SOLID_Demo\bin\Debug\SOLID_Demo.pdb
+C:\Francis Projects Demo\C#\SOLID\SOLID_Demo\SOLID_Demo\obj\x86\Debug\SOLID_Demo.exe
+C:\Francis Projects Demo\C#\SOLID\SOLID_Demo\SOLID_Demo\obj\x86\Debug\SOLID_Demo.pdb

@@ -1,0 +1,4 @@
+C:\Francis Projects Demo\C#\AlgorithmDemo\AlgorithmDemo\bin\Debug\AlgorithmDemo.exe
+C:\Francis Projects Demo\C#\AlgorithmDemo\AlgorithmDemo\bin\Debug\AlgorithmDemo.pdb
+C:\Francis Projects Demo\C#\AlgorithmDemo\AlgorithmDemo\obj\x86\Debug\AlgorithmDemo.exe
+C:\Francis Projects Demo\C#\AlgorithmDemo\AlgorithmDemo\obj\x86\Debug\AlgorithmDemo.pdb

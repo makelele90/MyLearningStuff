@@ -1,0 +1,10 @@
+C:\Francis Projects Demo\C#\Linq\LinqDemo\LinqDemo\bin\Debug\LinqDemo.exe
+C:\Francis Projects Demo\C#\Linq\LinqDemo\LinqDemo\bin\Debug\LinqDemo.pdb
+C:\Francis Projects Demo\C#\Linq\LinqDemo\LinqDemo\obj\x86\Debug\LinqDemo.exe
+C:\Francis Projects Demo\C#\Linq\LinqDemo\LinqDemo\obj\x86\Debug\LinqDemo.pdb
+C:\Francis Projects Demo\C#\Linq\LinqDemo\LinqDemo\bin\Debug\LinqDemo.exe.config
+C:\Francis Projects Demo\C#\Linq\LinqDemo\LinqDemo\bin\Debug\EntityFramework.dll
+C:\Francis Projects Demo\C#\Linq\LinqDemo\LinqDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Francis Projects Demo\C#\Linq\LinqDemo\LinqDemo\bin\Debug\EntityFramework.xml
+C:\Francis Projects Demo\C#\Linq\LinqDemo\LinqDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Francis Projects Demo\C#\Linq\LinqDemo\LinqDemo\obj\x86\Debug\LinqDemo.csprojResolveAssemblyReference.cache
