@@ -12,9 +12,12 @@
 <p>
   @Html.LabelFor(m => m.LastName) @Html.TextBoxFor(m => m.LastName)
 </p>
-<p>
-  @Html.LabelFor(m => m.Username) @Html.TextBoxFor(m => m.Username)
-</p>
+  <p>
+    @Html.LabelFor(m => m.Username) @Html.TextBoxFor(m => m.Username)
+    <br/>
+    @Html.ValidationMessageFor(m=>m.Username)
+  </p>
+  
 <p>
   @Html.LabelFor(m => m.Password) @Html.TextBoxFor(m => m.Password)
 </p>
