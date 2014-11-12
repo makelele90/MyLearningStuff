@@ -50,6 +50,30 @@
           <cite>{{review.author}}</cite>
           
         </blockquote>
+         <form name="reviewForm">
+        <div>
+          <b>starts:{{review.starts}}</b>
+          <p>
+            {{review.body}}
+          </p>
+          <cite>by:{{review.author}}</cite>
+        </div>
+       
+          <p>
+            <select ng-model="review.starts">
+            <option value="1">1 Start</option>
+            <option value="2">2 Start</option>
+          </select>
+          </p>
+          <p>
+            <textarea ng-model="review.body"></textarea>
+          </p>
+          <p>
+            <label>by:</label>
+          <input type="email" ng-model="review.author"/>
+          </p>
+          <input type="submit" value="Submit"/>
+        </form>
       </div>
       <div style="min-height: 150px;" class="panel" data-ng-show="panel.tab===3">
         <h4>Specification</h4>
