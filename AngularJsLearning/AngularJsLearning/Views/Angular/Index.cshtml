@@ -1,27 +1,60 @@
 ﻿@{
   ViewBag.Title = "Index";
 }
-<div ng-controller="StoreController as store">
+<div data-ng-controller="StoreController as store">
   <!-- loop through an array of data using <ng-repeat=" item in array">-->
   <div ng-repeat="product in store.products | orderBy:'-price'">
      <!--hide the product if sold out using <ng-hide> directive -->
-    <div ng-hide="product.soldOut">
+    <div data-ng-hide="product.soldOut">
       <h1>
         {{product.name}}</h1>
       <h2>
         <!-- format the price using filter-->
         {{product.price | currency}}
       </h2>
-      <p>
-        {{product.description |limitTo: 100}}</p>
-      <!--show element if using the  <ng-show> directive-->
-      <img ng-src="{{product.image}}" alt="image"/>
+      <!--show element if using the  <ng-show> directive and <ng-src>-->
+      
+      <ul class="gallery" data-ng-show="product.images.length">
+        
+        <li data-ng-repeat="image in product.images">
+          <img data-ng-src="{{image}}" alt="image"/>
+        </li>
+      </ul>
       <br/>
-      <button ng-show="product.canPurchase">
+      <button data-ng-show="product.canPurchase">
         Add to Card</button>
     </div>
-    
-    <hr/>
+    <!-- initialise tab to be 1 using <ng-init> directive -->
+    <br/>
+    <section @*ng-init="tab=1"*@ ng-controller="PanelController as panel">
+      <ul class="nav nav-pills">
+        <!-- handle the click even -->
+        <!-- use <ng-class> to adda a new class -->
+        <li  ng-class="{active:panel.isSelected(1)}"><a href  data-ng-click="panel.selectTab(1)">Description</a></li>
+        <li   ng-class="{active:panel.isSelected(2)}"><a href data-ng-show="product.reviews.length>0" data-ng-click="panel.selectTab(2)">Reviews</a></li>
+        <li  ng-class="{active:panel.isSelected(3)}"><a href data-ng-click="panel.selectTab(3)">Specification</a></li>
+      </ul>
+      <br/>
+      <div style="min-height: 150px;" class="panel" data-ng-show="panel.tab===1">
+        <h4>Description</h4>
+        {{product.description}}
+      </div>
+      <div style="min-height: 150px;" class="panel" data-ng-show="panel.tab===2">
+        <h4>Reviews</h4>
+        <ul >
+          <!-- <track by $index> is needed if you have element in the array with same value-->
+          <li data-ng-repeat="review in product.reviews track by $index">{{review}}</li>
+        </ul>
+      </div>
+      <div style="min-height: 150px;" class="panel" data-ng-show="panel.tab===3">
+        <h4>Specification</h4>
+        {{product.specification}}
+      </div>
+      <!-- creating a tab -->
+       <hr />
+    </section>
+
+   
   </div>
  
 </div>

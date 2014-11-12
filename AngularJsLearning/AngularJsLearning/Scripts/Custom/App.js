@@ -2,28 +2,77 @@
 /// <reference path="angular.js" />
 (function () {
   var gems = [
-    { name: 'Azurite',
-      price: 2,
-      description: 'Azurite solution to your problem',
-      canPurchase: true,
-      soldOut: false,
-      image: '/Images/custom/speaker109.png'
-    },
-    {
-      name: 'PLQuite',
-      price: 5.95,
-      description:'PLQuite solution to your problem',
-      canPurchase: true,
-      soldOut: false,
-      image: '/Images/custom/alarm48.png'
-    }
-  ];
-  
+              { name: 'Azurite',
+                price: 2,
+                description: 'Azurite solution to your problem',
+                reviews: [
+                  'and scrambled it to make a type specimen book. It has survived not only',
+                  'and scrambled it to make a type specimen book. It has survived not only',
+                  'and scrambled it to make a type specimen book. It has survived not only'
+                ],
+                specification: 'Maybe I should open a new thread for this,' +
+                  ' but with this code, if I define multiple responseBoxes in the html,' +
+                  ' the toggle function will affect all btn-groups to open and close. ' +
+                  'I think this has something to do with scope, but I seem to fail to grasp the scope concept',
+                canPurchase: true,
+                soldOut: false,
+                images: [
+                  '/Images/custom/speaker109.png'
+                ]
+              },
+              {
+                name: 'PLQuite',
+                price: 5.95,
+                description: 'PLQuite solution to your problem',
+                canPurchase: true,
+                soldOut: false,
+                reviews: [
+                  'and scrambled it to make a type specimen book. It has survived not only',
+                  'and scrambled it to make a type specimen book. It has survived not only'
+                ],
+                specification: 'Maybe I should open a new thread for this,' +
+                  ' but with this code, if I define multiple responseBoxes in the html,' +
+                  ' the toggle function will affect all btn-groups to open and close. ' +
+                  'I think this has something to do with scope, but I seem to fail to grasp the scope concept',
+                images: [
+                '/Images/custom/alarm48.png']
+              },
+              {
+                name: 'JanGoJanGo',
+                price: 9,
+                description: 'JanGoJanGo solution to your problem',
+                reviews: [],
+                specification: 'Maybe I should open a new thread for this,' +
+                  ' but with this code, if I define multiple responseBoxes in the html,' +
+                  ' the toggle function will affect all btn-groups to open and close. ' +
+                  'I think this has something to do with scope, but I seem to fail to grasp the scope concept',
+                canPurchase: true,
+                soldOut: false,
+                images: []
+              }
+            ];
+
   //create a module that will encapsulate the application data
   var app = angular.module('gemStore', []);
 
+  //Controllers
   app.controller('StoreController', function () {
     this.products = gems;
+  });
+
+  app.controller('PanelController', function () {
+
+    var self = this;
+    self.tab = 1;
+    self.selectTab = function (setTab) {
+
+      self.tab = setTab;
+
+    };
+
+    self.isSelected = function (tabValue) {
+      return self.tab === tabValue;
+    };
   });
 
 })();
