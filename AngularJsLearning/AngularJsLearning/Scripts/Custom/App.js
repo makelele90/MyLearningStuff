@@ -6,9 +6,24 @@
                 price: 2,
                 description: 'Azurite solution to your problem',
                 reviews: [
-                  'and scrambled it to make a type specimen book. It has survived not only',
-                  'and scrambled it to make a type specimen book. It has survived not only',
-                  'and scrambled it to make a type specimen book. It has survived not only'
+                  {
+                    starts:5,
+                    body: 'i love this products',
+                    author:"joe@thomas.com"
+
+                  },
+                  {
+                    starts: 2,
+                    body: 'i love this products',
+                    author: "thanh@thomas.com"
+
+                  },
+                  {
+                    starts: 3,
+                    body: 'i love this products',
+                    author: "pat@thomas.com"
+
+                  }
                 ],
                 specification: 'Maybe I should open a new thread for this,' +
                   ' but with this code, if I define multiple responseBoxes in the html,' +
@@ -27,8 +42,24 @@
                 canPurchase: true,
                 soldOut: false,
                 reviews: [
-                  'and scrambled it to make a type specimen book. It has survived not only',
-                  'and scrambled it to make a type specimen book. It has survived not only'
+                  {
+                    starts: 5,
+                    body: 'i love this products',
+                    author: "joe@thomas.com"
+
+                  },
+                  {
+                    starts: 2,
+                    body: 'i love this products like anything else, common let rock together',
+                    author: "joe@thomas.com"
+
+                  },
+                  {
+                    starts: 3,
+                    body: 'i love this products',
+                    author: "joe@thomas.com"
+
+                  }
                 ],
                 specification: 'Maybe I should open a new thread for this,' +
                   ' but with this code, if I define multiple responseBoxes in the html,' +

@@ -41,10 +41,15 @@
       </div>
       <div style="min-height: 150px;" class="panel" data-ng-show="panel.tab===2">
         <h4>Reviews</h4>
-        <ul >
-          <!-- <track by $index> is needed if you have element in the array with same value-->
-          <li data-ng-repeat="review in product.reviews track by $index">{{review}}</li>
-        </ul>
+         <!-- <track by $index> is needed if you have element in the array with same value-->
+        <blockquote ng-repeat="review in product.reviews track by $index" >
+          <b>Starts: {{review.starts}}</b>
+          <p>
+            {{review.body}}
+          </p>
+          <cite>{{review.author}}</cite>
+          
+        </blockquote>
       </div>
       <div style="min-height: 150px;" class="panel" data-ng-show="panel.tab===3">
         <h4>Specification</h4>
