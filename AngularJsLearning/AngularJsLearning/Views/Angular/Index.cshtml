@@ -1,0 +1,27 @@
+﻿@{
+  ViewBag.Title = "Index";
+}
+<div ng-controller="StoreController as store">
+  <!-- loop through an array of data using <ng-repeat=" item in array">-->
+  <div ng-repeat="product in store.products | orderBy:'-price'">
+     <!--hide the product if sold out using <ng-hide> directive -->
+    <div ng-hide="product.soldOut">
+      <h1>
+        {{product.name}}</h1>
+      <h2>
+        <!-- format the price using filter-->
+        {{product.price | currency}}
+      </h2>
+      <p>
+        {{product.description |limitTo: 100}}</p>
+      <!--show element if using the  <ng-show> directive-->
+      <img ng-src="{{product.image}}" alt="image"/>
+      <br/>
+      <button ng-show="product.canPurchase">
+        Add to Card</button>
+    </div>
+    
+    <hr/>
+  </div>
+ 
+</div>
