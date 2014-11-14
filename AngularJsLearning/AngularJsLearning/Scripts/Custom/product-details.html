@@ -1,0 +1,19 @@
+﻿    <div data-ng-hide="product.soldOut">
+      <h1>
+        {{product.name}}</h1>
+      <h2>
+        <!-- format the price using filter-->
+        {{product.price | currency:'£'}}
+      </h2>
+      <!--show element if using the  <ng-show> directive and <ng-src>-->
+      
+      <ul class="gallery" data-ng-show="product.images.length">
+        
+        <li data-ng-repeat="image in product.images">
+          <img data-ng-src="{{image}}" alt="image"/>
+        </li>
+      </ul>
+      <br/>
+      <button data-ng-show="product.canPurchase">
+        Add to Card</button>
+    </div>

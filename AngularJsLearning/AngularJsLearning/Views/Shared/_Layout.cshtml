@@ -7,6 +7,16 @@
         <meta name="viewport" content="width=device-width" />
         @Styles.Render("~/Content/css")
         @Scripts.Render("~/bundles/modernizr")
+      <style type="text/css">
+        
+        .ng-dirty.ng-invalid {
+          border-color: red !important;
+        }
+        .ng-dirty.ng-valid {
+          border-color: green;
+        }
+        
+      </style>
     </head>
     <body>
         <header>
@@ -46,6 +56,7 @@
         @RenderSection("scripts", required: false)
       <script src="/Scripts/Custom/angular.js"></script>
       <script src="/Scripts/Custom/App.js"></script>
+       <script src="/Scripts/Custom/product-details.js"></script>
       <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="/Content/bootstrap/css/bootstrap.min.css">
 

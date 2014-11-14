@@ -1,0 +1,65 @@
+﻿<section>
+      <ul class="nav nav-pills">
+        <!-- handle the click even -->
+        <!-- use <ng-class> to adda a new class -->
+        <li ng-class="{active:panel.isSelected(1)}">
+          <a href data-ng-click="panel.selectTab(1)">Description</a>
+        </li>
+        <li ng-class="{active:panel.isSelected(2)}">
+          <a href data-ng-show="product.reviews.length" data-ng-click="panel.selectTab(2)">Reviews</a>
+        </li>
+        <li ng-class="{active:panel.isSelected(3)}">
+          <a href data-ng-click="panel.selectTab(3)">Specification</a>
+        </li>
+      </ul>
+      <br/>
+      <div style="min-height: 150px;" class="panel" data-ng-show="panel.tab===1">
+        <h4>Description</h4>
+        {{product.description}}
+      </div>
+      <div style="min-height: 150px;" class="panel" data-ng-show="panel.tab===2">
+        <h4>Reviews</h4>
+         <!-- <track by $index> is needed if you have element in the array with same value-->
+        <blockquote ng-repeat="review in product.reviews track by $index" >
+          <b>Starts: {{review.starts}}</b>
+          <p>
+            {{review.body}}
+          </p>
+          <cite>-{{review.author}} on {{review.createdOn |date :'longDate'}}</cite>
+          
+        </blockquote>
+        <!-- {{reviewForm.$valid}} && -->
+        <form name="reviewForm" ng-controller="ReviewsController as reviewCtrl"
+        ng-submit="reviewForm.$valid && reviewCtrl.addReview(product)" novalidate>
+        <div>
+          <b>starts:{{reviewCtrl.review.starts}}</b>
+          <p>
+            {{reviewCtrl.review.body}}
+          </p>
+          <cite>by:{{reviewCtrl.review.author}}</cite>
+        </div>
+       <br/>
+          <p>
+            <select ng-model="reviewCtrl.review.starts" required>
+            <option value="1">1 Start</option>
+            <option value="2">2 Start</option>
+          </select>
+          </p>
+          <p>
+            <textarea ng-model="reviewCtrl.review.body" required></textarea>
+          </p>
+          <p>
+            <label>by:</label>
+            <input type="email" ng-model="reviewCtrl.review.author" required/>
+          </p>
+         
+          <input type="submit" value="Submit"/>
+        </form>
+      </div>
+      <div style="min-height: 150px;" class="panel" data-ng-show="panel.tab===3">
+        <h4>Specification</h4>
+        {{product.specification}}
+      </div>
+      <!-- creating a tab -->
+       <hr />
+ </section>

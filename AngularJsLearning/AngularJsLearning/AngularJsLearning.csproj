@@ -234,12 +234,16 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Scripts\Custom\product-details.html" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Images\custom\alarm48.png" />
     <Content Include="Images\custom\speaker109.png" />
     <Content Include="Scripts\Custom\angular.js" />
     <Content Include="Scripts\Custom\App.js" />
+    <Content Include="Scripts\Custom\product-details.js" />
+    <Content Include="Scripts\Custom\product-gallery.htm" />
+    <Content Include="Scripts\Custom\product-panels.html" />
     <Content Include="Scripts\jquery-2.1.1-vsdoc.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
@@ -307,6 +311,7 @@
     <None Include="Content\bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <None Include="Content\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <None Include="Content\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Scripts\Custom\product.json" />
     <None Include="Scripts\jquery-2.1.1.min.map" />
     <Content Include="Views\Angular\Index.cshtml" />
   </ItemGroup>

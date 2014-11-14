@@ -5,83 +5,16 @@
   <!-- loop through an array of data using <ng-repeat=" item in array">-->
   <div ng-repeat="product in store.products | orderBy:'-price'">
      <!--hide the product if sold out using <ng-hide> directive -->
-    <div data-ng-hide="product.soldOut">
-      <h1>
-        {{product.name}}</h1>
-      <h2>
-        <!-- format the price using filter-->
-        {{product.price | currency}}
-      </h2>
-      <!--show element if using the  <ng-show> directive and <ng-src>-->
+
+    <!-- <div ng-include="'/coustomHtmlpages/productdetails.htm'">
       
-      <ul class="gallery" data-ng-show="product.images.length">
-        
-        <li data-ng-repeat="image in product.images">
-          <img data-ng-src="{{image}}" alt="image"/>
-        </li>
-      </ul>
-      <br/>
-      <button data-ng-show="product.canPurchase">
-        Add to Card</button>
-    </div>
+         </div> -->
+    <!-- This is an angular directive -->
+    <product-details></product-details> 
+
     <!-- initialise tab to be 1 using <ng-init> directive -->
     <br/>
-    <section @*ng-init="tab=1"*@ ng-controller="PanelController as panel">
-      <ul class="nav nav-pills">
-        <!-- handle the click even -->
-        <!-- use <ng-class> to adda a new class -->
-        <li  ng-class="{active:panel.isSelected(1)}"><a href  data-ng-click="panel.selectTab(1)">Description</a></li>
-        <li   ng-class="{active:panel.isSelected(2)}"><a href data-ng-show="product.reviews.length>0" data-ng-click="panel.selectTab(2)">Reviews</a></li>
-        <li  ng-class="{active:panel.isSelected(3)}"><a href data-ng-click="panel.selectTab(3)">Specification</a></li>
-      </ul>
-      <br/>
-      <div style="min-height: 150px;" class="panel" data-ng-show="panel.tab===1">
-        <h4>Description</h4>
-        {{product.description}}
-      </div>
-      <div style="min-height: 150px;" class="panel" data-ng-show="panel.tab===2">
-        <h4>Reviews</h4>
-         <!-- <track by $index> is needed if you have element in the array with same value-->
-        <blockquote ng-repeat="review in product.reviews track by $index" >
-          <b>Starts: {{review.starts}}</b>
-          <p>
-            {{review.body}}
-          </p>
-          <cite>{{review.author}}</cite>
-          
-        </blockquote>
-         <form name="reviewForm">
-        <div>
-          <b>starts:{{review.starts}}</b>
-          <p>
-            {{review.body}}
-          </p>
-          <cite>by:{{review.author}}</cite>
-        </div>
-       
-          <p>
-            <select ng-model="review.starts">
-            <option value="1">1 Start</option>
-            <option value="2">2 Start</option>
-          </select>
-          </p>
-          <p>
-            <textarea ng-model="review.body"></textarea>
-          </p>
-          <p>
-            <label>by:</label>
-          <input type="email" ng-model="review.author"/>
-          </p>
-          <input type="submit" value="Submit"/>
-        </form>
-      </div>
-      <div style="min-height: 150px;" class="panel" data-ng-show="panel.tab===3">
-        <h4>Specification</h4>
-        {{product.specification}}
-      </div>
-      <!-- creating a tab -->
-       <hr />
-    </section>
+    <product-panels></product-panels>
 
    
   </div>
