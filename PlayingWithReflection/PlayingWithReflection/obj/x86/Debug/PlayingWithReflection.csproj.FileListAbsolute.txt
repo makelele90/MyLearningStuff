@@ -1,0 +1,8 @@
+C:\MyLearningStuff\PlayingWithReflection\PlayingWithReflection\bin\Debug\PlayingWithReflection.exe
+C:\MyLearningStuff\PlayingWithReflection\PlayingWithReflection\bin\Debug\PlayingWithReflection.pdb
+C:\MyLearningStuff\PlayingWithReflection\PlayingWithReflection\obj\x86\Debug\PlayingWithReflection.exe
+C:\MyLearningStuff\PlayingWithReflection\PlayingWithReflection\obj\x86\Debug\PlayingWithReflection.pdb
+C:\MyLearningStuff\PlayingWithReflection\PlayingWithReflection\bin\Debug\PlayingWithReflection.exe.config
+C:\MyLearningStuff\PlayingWithReflection\PlayingWithReflection\bin\Debug\BusinessLogic.BLL.dll
+C:\MyLearningStuff\PlayingWithReflection\PlayingWithReflection\bin\Debug\BusinessLogic.BLL.pdb
+C:\MyLearningStuff\PlayingWithReflection\PlayingWithReflection\obj\x86\Debug\PlayingWithReflection.csprojResolveAssemblyReference.cache

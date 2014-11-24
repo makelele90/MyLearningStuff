@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelBinding", "ModelBinding\ModelBinding.csproj", "{3AA36AE6-B847-491A-A70E-E00A15024AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelBinding.Tests", "ModelBinding.Tests\ModelBinding.Tests.csproj", "{BFD58B7F-FB56-4920-BE2C-DDCCE06A049A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AA36AE6-B847-491A-A70E-E00A15024AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA36AE6-B847-491A-A70E-E00A15024AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA36AE6-B847-491A-A70E-E00A15024AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA36AE6-B847-491A-A70E-E00A15024AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD58B7F-FB56-4920-BE2C-DDCCE06A049A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD58B7F-FB56-4920-BE2C-DDCCE06A049A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD58B7F-FB56-4920-BE2C-DDCCE06A049A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD58B7F-FB56-4920-BE2C-DDCCE06A049A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

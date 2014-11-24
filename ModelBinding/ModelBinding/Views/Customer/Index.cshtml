@@ -1,0 +1,28 @@
+﻿@model ModelBinding.Models.CustomerModel
+@{
+  ViewBag.Title = "Index";
+}
+<h2>
+  Index</h2>
+@using (Html.BeginForm())
+{
+  <p>
+    @Html.ValidationMessage("fullname")
+  </p>
+  <input style="visibility: hidden" data-val-fullname="firstname and lastname required" name="fullname" data-val="true" />
+  <p>
+    @Html.LabelFor(m => m.FirstName)
+    @Html.TextBoxFor(m => m.FirstName)
+    @Html.ValidationMessageFor(m=>m.FirstName)
+   
+  </p>
+  <p>
+    @Html.LabelFor(m => m.LastName)
+    @Html.TextBoxFor(m => m.LastName)
+  </p>
+  
+  
+  
+  <input type="submit" value="Submit"/>
+  
+}
