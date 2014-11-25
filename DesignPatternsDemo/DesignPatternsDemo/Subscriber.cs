@@ -14,7 +14,7 @@ namespace DesignPatternsDemo
     }
     public virtual void OnNext(Payload value)
     {
-      Console.WriteLine("next is happening");
+      Console.WriteLine("next is happening {0}",value.Message);
     }
 
     public virtual void OnError(Exception error)

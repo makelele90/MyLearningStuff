@@ -2,6 +2,6 @@
 {
   public struct Payload
   {
-    
+    public string Message { get; set; }
   }
 }

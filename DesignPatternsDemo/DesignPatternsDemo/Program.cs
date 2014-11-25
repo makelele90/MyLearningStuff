@@ -15,7 +15,7 @@ namespace DesignPatternsDemo
       sub1.Subscribe(subject);
       sub2.Subscribe(subject);
 
-      subject.SendMessage(new Payload());
+      subject.SendMessage(new Payload(){Message = "kill me"});
 
       subject.EndTransmission();
 
