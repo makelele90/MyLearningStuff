@@ -1,0 +1,9 @@
+C:\MyLearningStuff\WcfDemo\MathService\bin\MathService.dll
+C:\MyLearningStuff\WcfDemo\MathService\bin\MathService.pdb
+C:\MyLearningStuff\WcfDemo\MathService\bin\WcfContract.DLL.dll
+C:\MyLearningStuff\WcfDemo\MathService\bin\WcfImplimentation.DLL.dll
+C:\MyLearningStuff\WcfDemo\MathService\bin\WcfContract.DLL.pdb
+C:\MyLearningStuff\WcfDemo\MathService\bin\WcfImplimentation.DLL.pdb
+C:\MyLearningStuff\WcfDemo\MathService\obj\Debug\MathService.csprojResolveAssemblyReference.cache
+C:\MyLearningStuff\WcfDemo\MathService\obj\Debug\MathService.dll
+C:\MyLearningStuff\WcfDemo\MathService\obj\Debug\MathService.pdb

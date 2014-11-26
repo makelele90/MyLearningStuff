@@ -1,0 +1,4 @@
+C:\MyLearningStuff\WcfDemo\WcfContract.DLL\bin\Debug\WcfContract.DLL.dll
+C:\MyLearningStuff\WcfDemo\WcfContract.DLL\bin\Debug\WcfContract.DLL.pdb
+C:\MyLearningStuff\WcfDemo\WcfContract.DLL\obj\Debug\WcfContract.DLL.dll
+C:\MyLearningStuff\WcfDemo\WcfContract.DLL\obj\Debug\WcfContract.DLL.pdb

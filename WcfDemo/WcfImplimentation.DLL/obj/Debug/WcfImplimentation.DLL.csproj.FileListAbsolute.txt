@@ -1,0 +1,7 @@
+C:\MyLearningStuff\WcfDemo\WcfImplimentation.DLL\bin\Debug\WcfImplimentation.DLL.dll
+C:\MyLearningStuff\WcfDemo\WcfImplimentation.DLL\bin\Debug\WcfImplimentation.DLL.pdb
+C:\MyLearningStuff\WcfDemo\WcfImplimentation.DLL\bin\Debug\WcfContract.DLL.dll
+C:\MyLearningStuff\WcfDemo\WcfImplimentation.DLL\bin\Debug\WcfContract.DLL.pdb
+C:\MyLearningStuff\WcfDemo\WcfImplimentation.DLL\obj\Debug\WcfImplimentation.DLL.csprojResolveAssemblyReference.cache
+C:\MyLearningStuff\WcfDemo\WcfImplimentation.DLL\obj\Debug\WcfImplimentation.DLL.dll
+C:\MyLearningStuff\WcfDemo\WcfImplimentation.DLL\obj\Debug\WcfImplimentation.DLL.pdb

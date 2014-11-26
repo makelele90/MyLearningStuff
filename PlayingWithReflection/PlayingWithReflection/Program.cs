@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using BusinessLogic.BLL;
 
 namespace PlayingWithReflection
 {
+  [SuppressMessage]
   class Program
   {
     static void Main(string[] args)
@@ -18,11 +20,8 @@ namespace PlayingWithReflection
 
 
 
-      var collection = new CustomCollection<int>();
+      var collection = new CustomCollection<int> {1, 2, 3};
 
-      collection.Add(1);
-      collection.Add(2);
-      collection.Add(3);
       Console.WriteLine(collection[0]);
       foreach (var i in collection)
       {
