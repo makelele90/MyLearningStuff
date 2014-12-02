@@ -8,14 +8,11 @@ namespace WcfDemo
   {
     static void Main()
     {
-      //hosting the service
-      var host = new ServiceHost(typeof(ArithmeticService));
+      var service = new MathService.ArithmeticServiceClient();
 
-      host.Open();
+      Console.WriteLine(service.Add(2,5));
 
-      Console.WriteLine("Type a key to terminated");
-      Console.ReadKey();
-      host.Close();
+      Console.ReadLine();
     }
   }
 }

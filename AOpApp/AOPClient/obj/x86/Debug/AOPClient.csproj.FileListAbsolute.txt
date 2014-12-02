@@ -1,0 +1,9 @@
+C:\MyLearningStuff\AOpApp\AOPClient\obj\x86\Debug\AOPClient.csprojResolveAssemblyReference.cache
+C:\MyLearningStuff\AOpApp\AOPClient\bin\Debug\AOPClient.exe
+C:\MyLearningStuff\AOpApp\AOPClient\bin\Debug\AOPClient.pdb
+C:\MyLearningStuff\AOpApp\AOPClient\bin\Debug\Castle.Core.dll
+C:\MyLearningStuff\AOpApp\AOPClient\bin\Debug\Castle.Windsor.dll
+C:\MyLearningStuff\AOpApp\AOPClient\bin\Debug\Castle.Core.xml
+C:\MyLearningStuff\AOpApp\AOPClient\bin\Debug\Castle.Windsor.xml
+C:\MyLearningStuff\AOpApp\AOPClient\obj\x86\Debug\AOPClient.exe
+C:\MyLearningStuff\AOpApp\AOPClient\obj\x86\Debug\AOPClient.pdb

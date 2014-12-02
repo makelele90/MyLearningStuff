@@ -1,0 +1,5 @@
+C:\MyLearningStuff\MathApp\MathService\bin\Debug\MathService.DLL.dll.config
+C:\MyLearningStuff\MathApp\MathService\bin\Debug\MathService.DLL.dll
+C:\MyLearningStuff\MathApp\MathService\bin\Debug\MathService.DLL.pdb
+C:\MyLearningStuff\MathApp\MathService\obj\Debug\MathService.DLL.dll
+C:\MyLearningStuff\MathApp\MathService\obj\Debug\MathService.DLL.pdb

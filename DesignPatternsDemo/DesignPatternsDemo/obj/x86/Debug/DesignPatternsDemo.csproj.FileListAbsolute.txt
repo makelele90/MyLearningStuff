@@ -2,3 +2,4 @@ C:\MyLearningStuff\DesignPatternsDemo\DesignPatternsDemo\bin\Debug\DesignPattern
 C:\MyLearningStuff\DesignPatternsDemo\DesignPatternsDemo\bin\Debug\DesignPatternsDemo.pdb
 C:\MyLearningStuff\DesignPatternsDemo\DesignPatternsDemo\obj\x86\Debug\DesignPatternsDemo.exe
 C:\MyLearningStuff\DesignPatternsDemo\DesignPatternsDemo\obj\x86\Debug\DesignPatternsDemo.pdb
+C:\MyLearningStuff\DesignPatternsDemo\DesignPatternsDemo\obj\x86\Debug\DesignPatternsDemo.csprojResolveAssemblyReference.cache

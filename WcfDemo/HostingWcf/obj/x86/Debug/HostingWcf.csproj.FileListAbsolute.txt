@@ -1,0 +1,10 @@
+C:\MyLearningStuff\WcfDemo\HostingWcf\bin\Debug\HostingWcf.exe.config
+C:\MyLearningStuff\WcfDemo\HostingWcf\bin\Debug\HostingWcf.exe
+C:\MyLearningStuff\WcfDemo\HostingWcf\bin\Debug\HostingWcf.pdb
+C:\MyLearningStuff\WcfDemo\HostingWcf\bin\Debug\WcfContract.DLL.dll
+C:\MyLearningStuff\WcfDemo\HostingWcf\bin\Debug\WcfImplimentation.DLL.dll
+C:\MyLearningStuff\WcfDemo\HostingWcf\bin\Debug\WcfContract.DLL.pdb
+C:\MyLearningStuff\WcfDemo\HostingWcf\bin\Debug\WcfImplimentation.DLL.pdb
+C:\MyLearningStuff\WcfDemo\HostingWcf\obj\x86\Debug\HostingWcf.csprojResolveAssemblyReference.cache
+C:\MyLearningStuff\WcfDemo\HostingWcf\obj\x86\Debug\HostingWcf.exe
+C:\MyLearningStuff\WcfDemo\HostingWcf\obj\x86\Debug\HostingWcf.pdb

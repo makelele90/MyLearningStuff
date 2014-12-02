@@ -4,19 +4,45 @@ using System.Collections.Generic;
 
 namespace DesignPatternsDemo.Interator_fibonaci
 {
-  public class FibonacciSquence
+  public class FibonacciSquence : IEnumerable<double>
   {
-    public int NumberOfValues { get; set; }
+    private int NumberOfValues { get; set; }
 
     public FibonacciSquence(int numberOfValues)
     {
       NumberOfValues = numberOfValues;
     }
 
-    public IEnumerator<int> GetEnumerator()
+    public IEnumerator<double> GetEnumerator()
     {
-      throw new System.NotImplementedException();
+      //First approach using IEnumerator
+      // return new FibonnacciEnumerator(NumberOfValues);
+      var currentTotal = 0;
+      var previousTotal = 0;
+
+      for (var i = 0; i < NumberOfValues; i++)
+      {
+        if (i==0)
+        {
+          currentTotal = 1;
+        }
+        else
+        {
+          int newTotal = previousTotal + currentTotal;
+
+          previousTotal = currentTotal;
+          currentTotal = newTotal;
+        }
+        
+
+
+        yield return currentTotal;
+
+      }
+
+
     }
+
 
     IEnumerator IEnumerable.GetEnumerator()
     {

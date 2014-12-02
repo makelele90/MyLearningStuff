@@ -1,0 +1,7 @@
+C:\MyLearningStuff\MathApp\IssServiceHost\bin\IssServiceHost.dll
+C:\MyLearningStuff\MathApp\IssServiceHost\bin\IssServiceHost.pdb
+C:\MyLearningStuff\MathApp\IssServiceHost\bin\Calculation.DLL.dll
+C:\MyLearningStuff\MathApp\IssServiceHost\bin\Calculation.DLL.pdb
+C:\MyLearningStuff\MathApp\IssServiceHost\obj\Debug\IssServiceHost.dll
+C:\MyLearningStuff\MathApp\IssServiceHost\obj\Debug\IssServiceHost.pdb
+C:\MyLearningStuff\MathApp\IssServiceHost\obj\Debug\IssServiceHost.csprojResolveAssemblyReference.cache

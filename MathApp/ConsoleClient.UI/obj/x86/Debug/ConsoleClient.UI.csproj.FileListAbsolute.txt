@@ -1,0 +1,5 @@
+C:\MyLearningStuff\MathApp\ConsoleClient.UI\bin\Debug\ConsoleClient.UI.exe
+C:\MyLearningStuff\MathApp\ConsoleClient.UI\bin\Debug\ConsoleClient.UI.pdb
+C:\MyLearningStuff\MathApp\ConsoleClient.UI\obj\x86\Debug\ConsoleClient.UI.exe
+C:\MyLearningStuff\MathApp\ConsoleClient.UI\obj\x86\Debug\ConsoleClient.UI.pdb
+C:\MyLearningStuff\MathApp\ConsoleClient.UI\bin\Debug\ConsoleClient.UI.exe.config

@@ -1,22 +1,23 @@
 ﻿
+using System;
 using System.Collections;
 using System.Collections.Generic;
 
 namespace DesignPatternsDemo.Interator_fibonaci
 {
-  public class FibonnacciEnumerator:IEnumerator<int>
+  public class FibonnacciEnumerator:IEnumerator<double>
   {
-    private int _numberOfValues;
+    private readonly double _numberOfValues;
     private int _currentPosition;
     private int _previousTotal;
     private int _currentTotal;
 
-    public FibonnacciEnumerator(int numberOfValues)
+    public FibonnacciEnumerator(double numberOfValues)
     {
       _numberOfValues = numberOfValues;
     }
 
-    public int Current
+    public double Current
     {
       get { return _currentTotal; }
     }
@@ -33,16 +34,26 @@ namespace DesignPatternsDemo.Interator_fibonaci
       else
       {
         int newTotal = _previousTotal + _currentTotal;
-        _pre
+
+        _previousTotal = _currentTotal;
+        _currentTotal = newTotal;
+
+
       }
+
+      _currentPosition++;
+
+      return _currentPosition <= _numberOfValues;
     }
     public void Reset()
     {
-     
+      _currentPosition = 0;
+      _previousTotal = 0;
+      _currentTotal = 0;
     }
     public void Dispose()
     {
-      
+      GC.SuppressFinalize(this);
     }
   }
 }

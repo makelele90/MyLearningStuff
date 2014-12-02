@@ -1,0 +1,8 @@
+C:\MyLearningStuff\MathApp\ConsoleHost\bin\Debug\ConsoleHost.exe.config
+C:\MyLearningStuff\MathApp\ConsoleHost\bin\Debug\ConsoleHost.exe
+C:\MyLearningStuff\MathApp\ConsoleHost\bin\Debug\ConsoleHost.pdb
+C:\MyLearningStuff\MathApp\ConsoleHost\obj\x86\Debug\ConsoleHost.csprojResolveAssemblyReference.cache
+C:\MyLearningStuff\MathApp\ConsoleHost\obj\x86\Debug\ConsoleHost.exe
+C:\MyLearningStuff\MathApp\ConsoleHost\obj\x86\Debug\ConsoleHost.pdb
+C:\MyLearningStuff\MathApp\ConsoleHost\bin\Debug\Calculation.DLL.dll
+C:\MyLearningStuff\MathApp\ConsoleHost\bin\Debug\Calculation.DLL.pdb
