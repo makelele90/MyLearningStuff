@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDemo", "WebApiDemo\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiFromTemplate", "WebApiFromTemplate\WebApiFromTemplate.csproj", "{BCC16E69-4873-4FF6-9655-970C2A95654E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweeterClientMvc", "TweeterClientMvc\TweeterClientMvc.csproj", "{79714D56-8862-4EC3-B4EF-ED02586499A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{BCC16E69-4873-4FF6-9655-970C2A95654E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCC16E69-4873-4FF6-9655-970C2A95654E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCC16E69-4873-4FF6-9655-970C2A95654E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79714D56-8862-4EC3-B4EF-ED02586499A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79714D56-8862-4EC3-B4EF-ED02586499A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79714D56-8862-4EC3-B4EF-ED02586499A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79714D56-8862-4EC3-B4EF-ED02586499A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

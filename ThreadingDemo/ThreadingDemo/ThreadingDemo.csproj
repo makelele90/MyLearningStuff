@@ -46,6 +46,7 @@
     <Compile Include="CooperativeCancelation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaskContinue.cs" />
     <Compile Include="TasksExample.cs" />
     <Compile Include="ThreadExecutionContext.cs" />
   </ItemGroup>

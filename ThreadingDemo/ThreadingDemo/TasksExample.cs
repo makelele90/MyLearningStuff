@@ -8,16 +8,34 @@ namespace ThreadingDemo
   {
     public static void Start()
     {
+
+      
+        //create a cancelation token source
+      var cts = new CancellationTokenSource();
+
       new Task(ComputerBoundOp,8).Start();
 
       //Task.Factory.StartNew(ComputerBoundOp, 10);
 
-      var task = new Task<int>(n => WaitForTaskToComplete((int)n), 100);
+      var task = new Task<int>(() => WaitForTaskToComplete(cts.Token,10000) );
       task.Start();
-
-      //task.Wait();
+      
+      cts.Cancel();
+      
       // You can get the result (the Result property internally calls Wait)
-      Console.WriteLine("The Sum is: " + task.Result); // An Int32 value
+      try
+      {
+        task.Wait();
+        Console.WriteLine("The Sum is: " + task.Result); // An Int32 value
+      }
+      catch (AggregateException x)
+      {
+        
+       x.Handle(e=>e is OperationCanceledException);
+
+        Console.WriteLine("Sum was canceled");
+      }
+     
     }
 
     private static void ComputerBoundOp(object id)
@@ -25,13 +43,14 @@ namespace ThreadingDemo
       Console.WriteLine("Runing the task {0}",id);
     }
 
-    private static int WaitForTaskToComplete(int n)
+    private static int WaitForTaskToComplete(CancellationToken token,int n)
     {
       
       int sum = 0;
       for (; n>0; n--)
       {
        
+        token.ThrowIfCancellationRequested();
         checked
         {
           sum += n;

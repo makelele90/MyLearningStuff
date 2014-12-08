@@ -14,7 +14,9 @@ namespace ThreadingDemo
 
      // CooperativeCancelation.Start();
 
-      TasksExample.Start();
+      //TasksExample.Start();
+
+      TaskContinue.Start();
       Console.Read();
     }
 

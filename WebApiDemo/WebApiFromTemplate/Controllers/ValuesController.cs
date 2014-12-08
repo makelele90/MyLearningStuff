@@ -39,6 +39,7 @@ namespace WebApiFromTemplate.Controllers
       var msg = Request.CreateResponse(HttpStatusCode.Created);
 
       msg.Headers.Location = new Uri(Request.RequestUri + (_values.Count-1).ToString());
+     
 
       return msg;
     }
