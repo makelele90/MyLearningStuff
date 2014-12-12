@@ -1,0 +1,4 @@
+C:\MyLearningStuff\TeachMe\TeachMe.DataContainer\bin\Debug\TeachMe.DataContainer.dll
+C:\MyLearningStuff\TeachMe\TeachMe.DataContainer\bin\Debug\TeachMe.DataContainer.pdb
+C:\MyLearningStuff\TeachMe\TeachMe.DataContainer\obj\Debug\TeachMe.DataContainer.dll
+C:\MyLearningStuff\TeachMe\TeachMe.DataContainer\obj\Debug\TeachMe.DataContainer.pdb

@@ -8,7 +8,7 @@ namespace ThreadingDemo
   {
     public static void Start()
     {
-     
+   
       var cs = new CancellationTokenSource();
       var task = new Task<int>(() => Sum(CancellationToken.None, 10));
 

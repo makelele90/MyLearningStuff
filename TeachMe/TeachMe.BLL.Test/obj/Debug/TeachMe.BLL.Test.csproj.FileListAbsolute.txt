@@ -1,0 +1,15 @@
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.BLL.Test.dll
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.BLL.Test.pdb
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\nunit.framework.dll
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\Rhino.Mocks.dll
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.BLL.dll
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.BLL.pdb
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\nunit.framework.xml
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\Rhino.Mocks.xml
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\obj\Debug\TeachMe.BLL.Test.csprojResolveAssemblyReference.cache
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\obj\Debug\TeachMe.BLL.Test.dll
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\obj\Debug\TeachMe.BLL.Test.pdb
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.DataContainer.dll
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.DataContainer.pdb
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.DAL.dll
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.DAL.pdb

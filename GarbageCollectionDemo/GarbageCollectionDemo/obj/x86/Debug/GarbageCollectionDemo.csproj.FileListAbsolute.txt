@@ -1,0 +1,4 @@
+C:\MyLearningStuff\GarbageCollectionDemo\GarbageCollectionDemo\bin\Debug\GarbageCollectionDemo.exe
+C:\MyLearningStuff\GarbageCollectionDemo\GarbageCollectionDemo\bin\Debug\GarbageCollectionDemo.pdb
+C:\MyLearningStuff\GarbageCollectionDemo\GarbageCollectionDemo\obj\x86\Debug\GarbageCollectionDemo.exe
+C:\MyLearningStuff\GarbageCollectionDemo\GarbageCollectionDemo\obj\x86\Debug\GarbageCollectionDemo.pdb

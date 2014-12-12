@@ -1,0 +1,7 @@
+C:\MyLearningStuff\TeachMe\TeachMe.DAL\bin\Debug\TeachMe.DAL.dll
+C:\MyLearningStuff\TeachMe\TeachMe.DAL\bin\Debug\TeachMe.DAL.pdb
+C:\MyLearningStuff\TeachMe\TeachMe.DAL\obj\Debug\TeachMe.DAL.dll
+C:\MyLearningStuff\TeachMe\TeachMe.DAL\obj\Debug\TeachMe.DAL.pdb
+C:\MyLearningStuff\TeachMe\TeachMe.DAL\bin\Debug\TeachMe.DataContainer.dll
+C:\MyLearningStuff\TeachMe\TeachMe.DAL\bin\Debug\TeachMe.DataContainer.pdb
+C:\MyLearningStuff\TeachMe\TeachMe.DAL\obj\Debug\TeachMe.DAL.csprojResolveAssemblyReference.cache

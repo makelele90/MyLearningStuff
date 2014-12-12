@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingDemo", "ThreadingDemo\ThreadingDemo.csproj", "{29FF686C-F10A-447E-B651-BEEC3F56C643}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadUsingWindowForm", "ThreadUsingWindowForm\ThreadUsingWindowForm.csproj", "{5F28CDB5-38C2-45F0-AFDE-714BB1E48CDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{29FF686C-F10A-447E-B651-BEEC3F56C643}.Debug|x86.Build.0 = Debug|x86
 		{29FF686C-F10A-447E-B651-BEEC3F56C643}.Release|x86.ActiveCfg = Release|x86
 		{29FF686C-F10A-447E-B651-BEEC3F56C643}.Release|x86.Build.0 = Release|x86
+		{5F28CDB5-38C2-45F0-AFDE-714BB1E48CDB}.Debug|x86.ActiveCfg = Debug|x86
+		{5F28CDB5-38C2-45F0-AFDE-714BB1E48CDB}.Debug|x86.Build.0 = Debug|x86
+		{5F28CDB5-38C2-45F0-AFDE-714BB1E48CDB}.Release|x86.ActiveCfg = Release|x86
+		{5F28CDB5-38C2-45F0-AFDE-714BB1E48CDB}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,7 +16,10 @@ namespace ThreadingDemo
 
       //TasksExample.Start();
 
-      TaskContinue.Start();
+      //TaskContinue.Start();
+
+      //TaskFactoryExample.Start();
+      PrallelDemo.Start();
       Console.Read();
     }
 
