@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.BLL.Test.dll" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-12-12" time="11:32:12">
+<test-results name="C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.BLL.Test.dll" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-12-15" time="10:50:05">
   <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.3\bin" machine-name="XLN502" user="Francis Tchatchoua" user-domain="XLNTELECOM" />
   <culture-info current-culture="en-GB" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.BLL.Test.dll" executed="True" result="Success" success="True" time="0.007" asserts="0">
+  <test-suite type="Assembly" name="C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.BLL.Test.dll" executed="True" result="Success" success="True" time="0.634" asserts="0">
     <results>
-      <test-suite type="Namespace" name="TeachMe" executed="True" result="Success" success="True" time="0.007" asserts="0">
+      <test-suite type="Namespace" name="TeachMe" executed="True" result="Success" success="True" time="0.618" asserts="0">
         <results>
-          <test-suite type="Namespace" name="BLL" executed="True" result="Success" success="True" time="0.006" asserts="0">
+          <test-suite type="Namespace" name="BLL" executed="True" result="Success" success="True" time="0.618" asserts="0">
             <results>
-              <test-suite type="Namespace" name="Test" executed="True" result="Success" success="True" time="0.006" asserts="0">
+              <test-suite type="Namespace" name="Test" executed="True" result="Success" success="True" time="0.618" asserts="0">
                 <results>
-                  <test-suite type="TestFixture" name="AuthenticationTest" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                  <test-suite type="TestFixture" name="AuthenticationTest" executed="True" result="Success" success="True" time="0.615" asserts="0">
                     <results>
-                      <test-case name="TeachMe.BLL.Test.AuthenticationTest.Login_should_return_false_if_Authentication_is_unsucessful" executed="True" result="Success" success="True" time="0.000" asserts="1" />
-                      <test-case name="TeachMe.BLL.Test.AuthenticationTest.Login_should_return_true_if_Authentication_is_sucessful" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="TeachMe.BLL.Test.AuthenticationTest.Login_should_return_false_if_Authentication_is_unsucessful" executed="True" result="Success" success="True" time="0.573" asserts="1" />
+                      <test-case name="TeachMe.BLL.Test.AuthenticationTest.Login_should_return_true_if_Authentication_is_sucessful" executed="True" result="Success" success="True" time="0.006" asserts="1" />
                     </results>
                   </test-suite>
                 </results>

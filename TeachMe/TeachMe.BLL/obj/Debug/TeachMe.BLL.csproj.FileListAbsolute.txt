@@ -7,3 +7,5 @@ C:\MyLearningStuff\TeachMe\TeachMe.BLL\bin\Debug\TeachMe.DataContainer.pdb
 C:\MyLearningStuff\TeachMe\TeachMe.BLL\obj\Debug\TeachMe.BLL.csprojResolveAssemblyReference.cache
 C:\MyLearningStuff\TeachMe\TeachMe.BLL\bin\Debug\TeachMe.DAL.dll
 C:\MyLearningStuff\TeachMe\TeachMe.BLL\bin\Debug\TeachMe.DAL.pdb
+C:\MyLearningStuff\TeachMe\TeachMe.BLL\bin\Debug\EntityFramework.dll
+C:\MyLearningStuff\TeachMe\TeachMe.BLL\bin\Debug\EntityFramework.xml

@@ -13,3 +13,8 @@ C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.DataContainer.dll
 C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.DataContainer.pdb
 C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.DAL.dll
 C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.DAL.pdb
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\EntityFramework.dll
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\EntityFramework.xml
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.BLL.Test.dll.config
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\EntityFramework.SqlServer.xml
