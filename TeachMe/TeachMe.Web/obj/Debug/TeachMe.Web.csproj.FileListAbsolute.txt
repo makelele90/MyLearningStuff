@@ -40,3 +40,5 @@ C:\MyLearningStuff\TeachMe\TeachMe.Web\bin\TeachMe.BLL.pdb
 C:\MyLearningStuff\TeachMe\TeachMe.Web\bin\TeachMe.DAL.pdb
 C:\MyLearningStuff\TeachMe\TeachMe.Web\bin\TeachMe.DataContainer.pdb
 C:\MyLearningStuff\TeachMe\TeachMe.Web\bin\EntityFramework.SqlServer.xml
+C:\MyLearningStuff\TeachMe\TeachMe.Web\bin\TeachMe.Utility.dll
+C:\MyLearningStuff\TeachMe\TeachMe.Web\bin\TeachMe.Utility.pdb

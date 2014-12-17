@@ -2,6 +2,7 @@
 using TeachMe.BLL.Services.Interfaces;
 using TeachMe.DAL.Repository.Interfaces;
 using TeachMe.DataContainer.Data;
+using TeachMe.Utility;
 
 namespace TeachMe.BLL.Services.Classes
 {
@@ -16,7 +17,18 @@ namespace TeachMe.BLL.Services.Classes
 
     public bool Login(string username, string password)
     {
-      var user = _userRepository.Single(u => u.Username == username && u.Password == password);
+     //check if user with user name is available in database
+     var user = _userRepository.Single(u => u.Username == username);
+
+      if (user != null)
+      {
+        //create a hash of the password
+        var passwordHash = PasswordHash.CreateHash(password, user.PasswordSalt);
+
+        user = _userRepository.Single(u => u.Username == username && u.Password == passwordHash);
+
+      }
+     
 
       return user != null;
     }

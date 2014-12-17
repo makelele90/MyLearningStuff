@@ -1,0 +1,4 @@
+C:\MyLearningStuff\TeachMe\TeachMe.Utility\bin\Debug\TeachMe.Utility.dll
+C:\MyLearningStuff\TeachMe\TeachMe.Utility\bin\Debug\TeachMe.Utility.pdb
+C:\MyLearningStuff\TeachMe\TeachMe.Utility\obj\Debug\TeachMe.Utility.dll
+C:\MyLearningStuff\TeachMe\TeachMe.Utility\obj\Debug\TeachMe.Utility.pdb

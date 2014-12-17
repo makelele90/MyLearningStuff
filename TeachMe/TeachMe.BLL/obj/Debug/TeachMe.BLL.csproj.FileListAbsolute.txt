@@ -9,3 +9,5 @@ C:\MyLearningStuff\TeachMe\TeachMe.BLL\bin\Debug\TeachMe.DAL.dll
 C:\MyLearningStuff\TeachMe\TeachMe.BLL\bin\Debug\TeachMe.DAL.pdb
 C:\MyLearningStuff\TeachMe\TeachMe.BLL\bin\Debug\EntityFramework.dll
 C:\MyLearningStuff\TeachMe\TeachMe.BLL\bin\Debug\EntityFramework.xml
+C:\MyLearningStuff\TeachMe\TeachMe.BLL\bin\Debug\TeachMe.Utility.dll
+C:\MyLearningStuff\TeachMe\TeachMe.BLL\bin\Debug\TeachMe.Utility.pdb

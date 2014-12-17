@@ -14,6 +14,11 @@ namespace TeachMe.Web
       routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
       routes.MapRoute(
+          name: "Authentication",
+          url: "Authentication/{action}",
+          defaults: new { controller = "Home", action = "register" }
+      );
+      routes.MapRoute(
           name: "Default",
           url: "{controller}/{action}/{id}",
           defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

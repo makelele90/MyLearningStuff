@@ -53,6 +53,10 @@
       <Project>{59CC8527-32BC-447D-95A9-720E29954CCB}</Project>
       <Name>TeachMe.DataContainer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TeachMe.Utility\TeachMe.Utility.csproj">
+      <Project>{99F1B6BF-B888-4127-9316-8BF5DE819475}</Project>
+      <Name>TeachMe.Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

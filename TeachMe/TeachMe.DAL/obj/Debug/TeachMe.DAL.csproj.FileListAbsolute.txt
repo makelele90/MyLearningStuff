@@ -12,3 +12,4 @@ C:\MyLearningStuff\TeachMe\TeachMe.DAL\bin\Debug\EntityFramework.xml
 C:\MyLearningStuff\TeachMe\TeachMe.DAL\bin\Debug\EntityFramework.SqlServer.xml
 C:\MyLearningStuff\TeachMe\TeachMe.DAL\obj\Debug\TeachMe.DAL.Migrations.userProfile.resources
 C:\MyLearningStuff\TeachMe\TeachMe.DAL\obj\Debug\TeachMe.DAL.csproj.GenerateResource.Cache
+C:\MyLearningStuff\TeachMe\TeachMe.DAL\obj\Debug\TeachMe.DAL.Migrations.hashSaltColumn.resources

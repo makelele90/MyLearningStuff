@@ -1,4 +1,4 @@
-﻿@model UserModel
+﻿@model LoginModel
 <header>
     <div class="content-wrapper">
         <div class="float-left">
@@ -9,7 +9,7 @@
 </header>
 <div id="body">
   <span class="welcome"></span>
-  <form id="loginForm" action="/api/login" method="GET">
+  <form id="loginForm" action="/api/Authentication" method="get">
     <p>
       @Html.LabelFor(m=>m.Username)
       @Html.TextBoxFor(m=>m.Username)

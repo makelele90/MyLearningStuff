@@ -6,6 +6,7 @@ using TeachMe.BLL.Services.Classes;
 using TeachMe.BLL.Services.Interfaces;
 using TeachMe.DAL.Repository.Classes;
 using TeachMe.DataContainer.Data;
+using TeachMe.Utility;
 using TeachMe.Web.Models;
 
 namespace TeachMe.Web.Controllers
@@ -13,9 +14,8 @@ namespace TeachMe.Web.Controllers
     public class AuthenticationController : ApiController
     {
       private readonly IAuthenticationService _service = new AuthenticationService(new UserRepository());
-      
-      [HttpPost]
-      public HttpResponseMessage Login([FromBody] LoginModel data)
+
+      public HttpResponseMessage Get([FromUri] LoginModel data)
       {
         var message = Request.CreateResponse(HttpStatusCode.NoContent);
 
@@ -34,19 +34,34 @@ namespace TeachMe.Web.Controllers
         return message;
       }
 
-      [HttpPost]
-      public HttpResponseMessage Register([FromBody] RegistrationModel data)
+      public HttpResponseMessage Post([FromBody] RegistrationModel data)
       {
         var message = Request.CreateResponse(HttpStatusCode.NoContent);
 
+        
+
         if (ModelState.IsValid)
         {
-          var user = new User();
+          var passwordSalt = PasswordHash.GenerateHexSaltString();
+          var hashedPassword = PasswordHash.CreateHash(data.Password, passwordSalt);
+          var user = new User()
+            {
+              CreatedOn = DateTime.Now,
+              Password = hashedPassword,
+              PasswordSalt = passwordSalt,
+              Username = data.UserName,
+              UserProfile = new UserProfile()
+                {
+                  FirstName = data.FirstName,
+                  LastName = data.LastName,
+                  Email = data.Email
+                }
+            };
           var status = _service.CreateUser(user);
 
           if (status)
           {
-            
+
             message = Request.CreateResponse(HttpStatusCode.Created);
             message.Headers.Location = new Uri(Request.RequestUri + "/" + user.Username);
           }

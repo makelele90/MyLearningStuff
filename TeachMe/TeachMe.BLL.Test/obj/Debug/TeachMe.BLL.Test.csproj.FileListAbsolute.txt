@@ -18,3 +18,5 @@ C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\EntityFramework.xml
 C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.BLL.Test.dll.config
 C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\EntityFramework.SqlServer.dll
 C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.Utility.dll
+C:\MyLearningStuff\TeachMe\TeachMe.BLL.Test\bin\Debug\TeachMe.Utility.pdb

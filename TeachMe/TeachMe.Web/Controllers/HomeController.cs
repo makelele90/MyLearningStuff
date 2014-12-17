@@ -10,5 +10,10 @@ namespace TeachMe.Web.Controllers
       var userModel = new LoginModel();
       return View(userModel);
     }
+    public ActionResult Register()
+    {
+      var model = new RegistrationModel();
+      return View(model);
+    }
   }
 }

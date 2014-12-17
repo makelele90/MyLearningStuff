@@ -10,17 +10,34 @@
 
     if (isValid === false) return false;
 
-    $.post('/api/Authentication/Login', $('#loginForm').serialize()).done(function (data) {
+    $.get('/api/Authentication', $('#loginForm').serialize()).done(function (data) {
 
-      if (typeof (data) === 'undefined') 
-      {
+      if (typeof (data) === 'undefined') {
         $('.welcome').text('no record found');
       }
-      else 
-      {
+      else {
         $('.welcome').text('welcome ' + data.Username);
       }
 
+    });
+
+    return false;
+
+  });
+
+  $('#registerBtn').click(function () {
+
+    var form = $('#registrationForm');
+    var isValid = form.valid();
+
+    if (isValid === false) return false;
+
+    $.post('/api/Authentication', form.serialize()).done(function (data, status, response) {
+
+      if (response.status === 201) {
+
+        alert(response.status);
+      }
     });
 
     return false;

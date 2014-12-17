@@ -1,5 +1,6 @@
 ﻿
 using System.Data.Entity;
+using TeachMe.DAL.Migrations;
 using TeachMe.DataContainer.Data;
 
 namespace TeachMe.DAL.DataEngine

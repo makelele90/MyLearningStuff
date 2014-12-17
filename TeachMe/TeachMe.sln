@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMe.BLL.Test", "TeachMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMe.Web", "TeachMe.Web\TeachMe.Web.csproj", "{AEFA08A5-890A-41C5-B3EF-F98A89D715BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMe.Utility", "TeachMe.Utility\TeachMe.Utility.csproj", "{99F1B6BF-B888-4127-9316-8BF5DE819475}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,16 @@ Global
 		{AEFA08A5-890A-41C5-B3EF-F98A89D715BF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{AEFA08A5-890A-41C5-B3EF-F98A89D715BF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{AEFA08A5-890A-41C5-B3EF-F98A89D715BF}.Release|x86.ActiveCfg = Release|Any CPU
+		{99F1B6BF-B888-4127-9316-8BF5DE819475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F1B6BF-B888-4127-9316-8BF5DE819475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F1B6BF-B888-4127-9316-8BF5DE819475}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{99F1B6BF-B888-4127-9316-8BF5DE819475}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{99F1B6BF-B888-4127-9316-8BF5DE819475}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{99F1B6BF-B888-4127-9316-8BF5DE819475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F1B6BF-B888-4127-9316-8BF5DE819475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F1B6BF-B888-4127-9316-8BF5DE819475}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{99F1B6BF-B888-4127-9316-8BF5DE819475}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{99F1B6BF-B888-4127-9316-8BF5DE819475}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

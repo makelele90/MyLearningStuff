@@ -53,6 +53,10 @@
     <Compile Include="Migrations\201412161141509_userProfile.Designer.cs">
       <DependentUpon>201412161141509_userProfile.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201412171612339_hashSaltColumn.cs" />
+    <Compile Include="Migrations\201412171612339_hashSaltColumn.Designer.cs">
+      <DependentUpon>201412171612339_hashSaltColumn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\Classes\UserRepository.cs" />
@@ -72,6 +76,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201412161141509_userProfile.resx">
       <DependentUpon>201412161141509_userProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201412171612339_hashSaltColumn.resx">
+      <DependentUpon>201412171612339_hashSaltColumn.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

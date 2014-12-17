@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿
+
 using System.Web.Http;
 
 namespace TeachMe.Web
@@ -9,6 +8,11 @@ namespace TeachMe.Web
   {
     public static void Register(HttpConfiguration config)
     {
+      config.Routes.MapHttpRoute(
+          name: "usernameValidation",
+          routeTemplate: "api/Authentication/IsUsernameAvailable",
+          defaults: new { controller = "Authentication", action = "IsUsernameAvailable" }
+      );
       config.Routes.MapHttpRoute(
           name: "DefaultApi",
           routeTemplate: "api/{controller}/{id}",
