@@ -1,6 +1,4 @@
-﻿
-using System.Data.Entity;
-using TeachMe.DAL.Migrations;
+﻿using System.Data.Entity;
 using TeachMe.DataContainer.Data;
 
 namespace TeachMe.DAL.DataEngine
@@ -13,7 +11,7 @@ namespace TeachMe.DAL.DataEngine
       : base("TeachMe")
     {
       Database.SetInitializer<TeachMeContext>(null);
-     // Database.SetInitializer(new MigrateDatabaseToLatestVersion<TeachMeContext, Configuration>("TeachMe"));
+    //Database.SetInitializer(new MigrateDatabaseToLatestVersion<TeachMeContext, Configuration>("TeachMe"));
     }
 
     protected override void OnModelCreating(DbModelBuilder modelBuilder)

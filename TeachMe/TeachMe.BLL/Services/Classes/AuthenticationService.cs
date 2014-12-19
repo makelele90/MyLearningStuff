@@ -50,7 +50,12 @@ namespace TeachMe.BLL.Services.Classes
 
     public bool CreateUser(User user)
     {
-      
+      var passwordSalt = PasswordHash.GenerateHexSaltString();
+      var hashedPassword = PasswordHash.CreateHash(user.Password, passwordSalt);
+
+      user.PasswordSalt = passwordSalt;
+      user.Password = hashedPassword;
+
       var result=_userRepository.Create(user);
 
       return result.Status;

@@ -6,7 +6,6 @@ using TeachMe.BLL.Services.Classes;
 using TeachMe.BLL.Services.Interfaces;
 using TeachMe.DAL.Repository.Classes;
 using TeachMe.DataContainer.Data;
-using TeachMe.Utility;
 using TeachMe.Web.Models;
 
 namespace TeachMe.Web.Controllers
@@ -38,17 +37,13 @@ namespace TeachMe.Web.Controllers
       {
         var message = Request.CreateResponse(HttpStatusCode.NoContent);
 
-        
-
         if (ModelState.IsValid)
         {
-          var passwordSalt = PasswordHash.GenerateHexSaltString();
-          var hashedPassword = PasswordHash.CreateHash(data.Password, passwordSalt);
+          
           var user = new User()
             {
               CreatedOn = DateTime.Now,
-              Password = hashedPassword,
-              PasswordSalt = passwordSalt,
+              Password = data.Password,
               Username = data.UserName,
               UserProfile = new UserProfile()
                 {
